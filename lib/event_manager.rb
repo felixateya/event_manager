@@ -27,4 +27,5 @@ contents.each do |row|
   legislators = legislators.officials
 
   puts "#{name} #{zipcode} #{legislators}"
+  p "#{name} #{zipcode} #{legislators}"
 end
